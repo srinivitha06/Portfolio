@@ -71,6 +71,16 @@
           "level": 65
         }
       ]
+    },
+    {
+      "id": "skill-cat-3",
+      "category": "Technologies",
+      "items": [
+        {
+          "name": "SQL",
+          "level": 90
+        }
+      ]
     }
   ],
   "projects": [
