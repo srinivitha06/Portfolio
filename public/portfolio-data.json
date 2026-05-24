@@ -1,0 +1,223 @@
+{
+  "profile": {
+    "name": "Srinivitha Kathirvel",
+    "tagline": "Electronics & Communication Engineering",
+    "subTagline": "Specializing in Embedded Systems, IoT Architectures, and C Programming.",
+    "aboutText": "I am a passionate Electronics and Communication Engineering student dedicated to bridging the gap between hardware complexity and software efficiency. My interests lie at Embedded system, Python, Java, IoT. Strong foundation along with hands-on experience through Soldering-based workshop and projects using Arduino and advancing in problem-solving. Passionate about IoT, Embedded systems and software-oriented roles, with a keen interest to apply theoretical concepts in the real-world systems.",
+    "profileImage": "/my-photo.jpg",
+    "resumeUrl": "/resume.pdf",
+    "github": "https://github.com/srinivitha06",
+    "linkedin": "https://www.linkedin.com/in/srinivitha-k/",
+    "email": "srinivithakathirvel06@gmail.com"
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology in Electronics & Communication",
+      "institution": "National Institute of Technology (NIT)",
+      "period": "2023 - 2027",
+      "grade": "CGPA: 8.92/10.0 (Ongoing)",
+      "details": "Specialized coursework in Microcontrollers, Digital Signal Processing, VLSI Design, Analog & Digital Communications, Embedded Systems, and Electromagnetic Field Theory. Active Member of the Robotics Club and IEEE Student Branch."
+    },
+    {
+      "id": "edu-2",
+      "degree": "All India Senior School Certificate Examination (CBSE XII)",
+      "institution": "Vikas Senior Secondary School",
+      "period": "2021 - 2023",
+      "grade": "Percentage: 94.6%",
+      "details": "Focused on Physics, Chemistry, Mathematics, and Computer Science."
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-cat-1",
+      "category": "Hardware & Microcontrollers",
+      "items": [
+        {
+          "name": "C programming",
+          "level": 70
+        },
+        {
+          "name": "Python",
+          "level": 90
+        }
+      ]
+    },
+    {
+      "id": "skill-cat-2",
+      "category": "EDA Tools & Design",
+      "items": [
+        {
+          "name": "Altium Designer (PCB)",
+          "level": 80
+        },
+        {
+          "name": "KiCAD & EasyEDA",
+          "level": 90
+        },
+        {
+          "name": "MATLAB & Simulink",
+          "level": 85
+        },
+        {
+          "name": "Xilinx Vivado (Verilog)",
+          "level": 75
+        },
+        {
+          "name": "LTspice Circuit Simulation",
+          "level": 85
+        }
+      ]
+    },
+    {
+      "id": "skill-cat-3",
+      "category": "Languages & Frameworks",
+      "items": [
+        {
+          "name": "Embedded C / C++",
+          "level": 90
+        },
+        {
+          "name": "Python (Data/Signals)",
+          "level": 80
+        },
+        {
+          "name": "Verilog HDL",
+          "level": 75
+        },
+        {
+          "name": "HTML5 / CSS / Javascript",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "id": "skill-cat-4",
+      "category": "IoT Protocols & Core ECE",
+      "items": [
+        {
+          "name": "I2C, SPI, UART, CAN",
+          "level": 90
+        },
+        {
+          "name": "MQTT, HTTP, LoRaWAN",
+          "level": 85
+        },
+        {
+          "name": "RF Design & Antennas",
+          "level": 65
+        },
+        {
+          "name": "Digital Logic Design",
+          "level": 85
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "IoT-Enabled Smart Agricultural Drone",
+      "description": "Designed a custom quadcopter equipped with multispectral sensors and ESP32 nodes to monitor crop health, soil moisture, and micro-climatic metrics. Programmed remote telemetry using MQTT protocol to stream sensor readings into a web-based dashboard and integrated an on-board computer for autonomous waypoint flight navigation.",
+      "category": "IoT & Embedded",
+      "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=600&q=80",
+      "tags": [
+        "ESP32",
+        "MQTT",
+        "Arduino IDE",
+        "Sensors",
+        "Altium Designer"
+      ],
+      "githubLink": "https://github.com",
+      "demoLink": ""
+    },
+    {
+      "id": "proj-2",
+      "title": "FPGA-Based Real-time Audio Equalizer",
+      "description": "Implemented an 8-band audio frequency equalizer on a Xilinx Artix-7 FPGA development board. Designed discrete finite impulse response (FIR) bandpass filters in Verilog, simulated design behaviors using ModelSim, and interfaced high-speed I2S audio codecs for ADC/DAC signal conversions with minimal latency.",
+      "category": "VLSI & DSP",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
+      "tags": [
+        "Verilog HDL",
+        "Vivado",
+        "FIR Filters",
+        "FPGA Artix-7",
+        "I2S Protocol"
+      ],
+      "githubLink": "https://github.com",
+      "demoLink": ""
+    },
+    {
+      "id": "proj-3",
+      "title": "Multi-Layer Smart Home Central Hub",
+      "description": "Engineered a low-power central IoT hub using a Raspberry Pi 4 coordinating STM32 battery-powered nodes scattered around the house. Nodes communicated over an encrypted sub-1GHz RF link (LoRa). The central gateway compiled data and displayed dashboard widgets using React, while logging entries into a local database.",
+      "category": "IoT & Embedded",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80",
+      "tags": [
+        "STM32",
+        "Raspberry Pi",
+        "LoRa",
+        "Embedded C++",
+        "React"
+      ],
+      "githubLink": "https://github.com",
+      "demoLink": ""
+    },
+    {
+      "id": "proj-4",
+      "title": "Automated PCB Design of VLSI Test Bench",
+      "description": "Developed a fully routed 4-layer VLSI breakout test PCB using Altium Designer. Designed proper high-speed impedance matching channels, power distribution decoupling networks, and dynamic thermal vias to isolate micro-controller outputs from noise under active high-frequency loading.",
+      "category": "EDA & PCB Design",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+      "tags": [
+        "Altium Designer",
+        "PCB Layout",
+        "VLSI Breakout",
+        "LTspice"
+      ],
+      "githubLink": "https://github.com",
+      "demoLink": ""
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "Embedded Systems Engineering Professional Certificate",
+      "issuer": "Coursera / University of Colorado Boulder",
+      "issueDate": "Jan 2025",
+      "credentialUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "description": "Comprehensive specialization covering real-time software development, ring buffers, memory architectures, serial protocols (SPI, I2C), and low-power hardware modes on ARM Cortex-M microcontrollers."
+    },
+    {
+      "id": "cert-3",
+      "title": "Introduction to Digital Signal Processing",
+      "issuer": "IEEE E-Learning",
+      "issueDate": "Aug 2024",
+      "credentialUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "description": "Focused on discrete-time signals, Z-transforms, Fourier transforms (DFT/FFT), filter architectures, and practical signal filtering implementations in MATLAB."
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "title": "1st Place Winner - Smart India Hackathon (Hardware Edition)",
+      "role": "Hardware Team Lead",
+      "period": "Dec 2024",
+      "description": "Led a 5-member team to construct a real-time, low-cost gas leakage and fire detection network with active ventilation triggers for underground coal mines. Developed hardware prototype within 36 hours using ESP32 nodes and custom sensor packages."
+    },
+    {
+      "id": "act-2",
+      "title": "IEEE Student Chapter President",
+      "role": "Organizing Chair",
+      "period": "2024 - Present",
+      "description": "Coordinated over 15 technical workshops, PCB design bootcamps, and robotics design exhibitions, helping 400+ students gain hands-on hardware training. Hosted guest lecturers from top semiconductor industries."
+    },
+    {
+      "id": "act-3",
+      "title": "Technical Writer & Hardware Advisor",
+      "role": "Robotics Club Mentor",
+      "period": "2023 - Present",
+      "description": "Mentored 10+ student batches in micro-controller integration, motor driving circuits, and circuit design. Published weekly hardware tutorials on the university's technical magazine."
+    }
+  ]
+}

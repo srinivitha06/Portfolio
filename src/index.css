@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream-light: #FDFBF7;
+  --color-cream: #F5EFEB;
+  --color-latte: #E8D8CE;
+  --color-coffee-light: #A98467;
+  --color-coffee: #5C3D2E;
+  --color-coffee-dark: #3D251E;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', 'Inter', system-ui, sans-serif;
+  
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-spin-slow: spin 12s linear infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8D8CE;
+  border-radius: 9999px;
+  border: 2px solid #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A98467;
+}
+
+/* Global resets & customizations */
+html {
+  scroll-behavior: smooth;
+  background-color: #FDFBF7;
+  color: #3D251E;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Glassmorphism custom classes */
+.glass-nav {
+  background: rgba(253, 251, 247, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(92, 61, 46, 0.08);
+}
+
+.glass-card {
+  background: rgba(253, 251, 247, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(92, 61, 46, 0.05);
+}
+
+.glass-modal {
+  background: rgba(253, 251, 247, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(92, 61, 46, 0.1);
+}
+
+/* Soft highlight decoration */
+.text-gradient {
+  background: linear-gradient(135deg, #5C3D2E 0%, #A98467 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-coffee {
+  background: linear-gradient(135deg, #5C3D2E 0%, #3D251E 100%);
+}
+
+.bg-gradient-warm {
+  background: linear-gradient(135deg, #FDFBF7 0%, #F5EFEB 100%);
+}
+
+.bg-gradient-cream {
+  background: linear-gradient(135deg, #F5EFEB 0%, #E8D8CE 100%);
+}
+
+.bg-gradient-accent {
+  background: linear-gradient(135deg, #E8D8CE 0%, #A98467 100%);
+}
+
+/* Custom styles to prevent layout shifts */
+section {
+  position: relative;
+  width: 100%;
+}
