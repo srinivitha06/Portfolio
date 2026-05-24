@@ -71,7 +71,9 @@
           "name": "VS Code",
           "level": 65
         },
-        {
+      
+    
+    {
       "id": "skill-cat-3",
       "category": "Technologie",
       "items": [
@@ -118,7 +120,7 @@
       "githubLink": "https://github.com",
       "demoLink": ""
     }
-    
+
   ],
   "certifications": [
     {
