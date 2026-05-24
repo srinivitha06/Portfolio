@@ -50,19 +50,9 @@
         }
       ]
     },
-    
+  
     {
       "id": "skill-cat-2",
-      "category": "Technologie",
-      "items": [
-        {
-          "name": "SQL",
-          "level": 90
-        }
-      ]
-    },
-    {
-      "id": "skill-cat-3",
       "category": "Tools & Software",
       "items": [
         {
@@ -80,7 +70,17 @@
         {
           "name": "VS Code",
           "level": 65
+        },
+        {
+      "id": "skill-cat-3",
+      "category": "Technologie",
+      "items": [
+        {
+          "name": "SQL",
+          "level": 90
         }
+      ]
+    }
       ]
     }
   ],
@@ -101,24 +101,9 @@
       "githubLink": "https://github.com",
       "demoLink": ""
     },
+    
     {
       "id": "proj-2",
-      "title": "FPGA-Based Real-time Audio Equalizer",
-      "description": "Implemented an 8-band audio frequency equalizer on a Xilinx Artix-7 FPGA development board. Designed discrete finite impulse response (FIR) bandpass filters in Verilog, simulated design behaviors using ModelSim, and interfaced high-speed I2S audio codecs for ADC/DAC signal conversions with minimal latency.",
-      "category": "VLSI & DSP",
-      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
-      "tags": [
-        "Verilog HDL",
-        "Vivado",
-        "FIR Filters",
-        "FPGA Artix-7",
-        "I2S Protocol"
-      ],
-      "githubLink": "https://github.com",
-      "demoLink": ""
-    },
-    {
-      "id": "proj-3",
       "title": "Multi-Layer Smart Home Central Hub",
       "description": "Engineered a low-power central IoT hub using a Raspberry Pi 4 coordinating STM32 battery-powered nodes scattered around the house. Nodes communicated over an encrypted sub-1GHz RF link (LoRa). The central gateway compiled data and displayed dashboard widgets using React, while logging entries into a local database.",
       "category": "IoT & Embedded",
@@ -132,22 +117,8 @@
       ],
       "githubLink": "https://github.com",
       "demoLink": ""
-    },
-    {
-      "id": "proj-4",
-      "title": "Automated PCB Design of VLSI Test Bench",
-      "description": "Developed a fully routed 4-layer VLSI breakout test PCB using Altium Designer. Designed proper high-speed impedance matching channels, power distribution decoupling networks, and dynamic thermal vias to isolate micro-controller outputs from noise under active high-frequency loading.",
-      "category": "EDA & PCB Design",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-      "tags": [
-        "Altium Designer",
-        "PCB Layout",
-        "VLSI Breakout",
-        "LTspice"
-      ],
-      "githubLink": "https://github.com",
-      "demoLink": ""
     }
+    
   ],
   "certifications": [
     {
