@@ -70,11 +70,8 @@
         {
           "name": "VS Code",
           "level": 65
-        }
-      ] 
-    }, 
-     
-    {
+        },
+        {
       "id": "skill-cat-3",
       "category": "Technologie",
       "items": [
@@ -84,7 +81,8 @@
         }
       ]
     }
-
+      ]
+    }
   ],
   "projects": [
     {
