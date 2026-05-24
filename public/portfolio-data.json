@@ -53,19 +53,33 @@
     
     {
       "id": "skill-cat-2",
-      "category": "IoT Protocols & Core ECE",
+      "category": "Technologie",
       "items": [
         {
-          "name": "I2C, SPI, UART, CAN",
+          "name": "SQL",
           "level": 90
+        }
+      ]
+    },
+    {
+      "id": "skill-cat-3",
+      "category": "Tools & Software",
+      "items": [
+        {
+          "name": "MATLab",
+          "level": 75
         },
         {
-          "name": "MQTT, HTTP, LoRaWAN",
+          "name": "Canva",
           "level": 85
         },
         {
-          "name": "Digital Logic Design",
+          "name": "Arduino IDE",
           "level": 85
+        },
+        {
+          "name": "VS Code",
+          "level": 65
         }
       ]
     }
@@ -145,7 +159,7 @@
       "description": "Comprehensive specialization covering real-time software development, ring buffers, memory architectures, serial protocols (SPI, I2C), and low-power hardware modes on ARM Cortex-M microcontrollers."
     },
     {
-      "id": "cert-3",
+      "id": "cert-2",
       "title": "Introduction to Digital Signal Processing",
       "issuer": "IEEE E-Learning",
       "issueDate": "Aug 2024",
