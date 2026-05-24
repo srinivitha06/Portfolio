@@ -50,7 +50,6 @@
         }
       ]
     },
-  
     {
       "id": "skill-cat-2",
       "category": "Tools & Software",
@@ -70,17 +69,7 @@
         {
           "name": "VS Code",
           "level": 65
-        },
-        {
-      "id": "skill-cat-3",
-      "category": "Technologie",
-      "items": [
-        {
-          "name": "SQL",
-          "level": 90
         }
-      ]
-    }
       ]
     }
   ],
@@ -101,7 +90,6 @@
       "githubLink": "https://github.com",
       "demoLink": ""
     },
-    
     {
       "id": "proj-2",
       "title": "Multi-Layer Smart Home Central Hub",
@@ -118,7 +106,6 @@
       "githubLink": "https://github.com",
       "demoLink": ""
     }
-
   ],
   "certifications": [
     {
