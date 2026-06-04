@@ -49,7 +49,8 @@
           "level": 90
         }
       ]
-    },
+    }
+    ,
     {
       "id": "skill-cat-2",
       "category": "Tools & Software",
@@ -155,7 +156,7 @@
       "title": "Academic Excellence Award",
       "role": "Academic Achievement",
       "period": "2025-2026",
-      "description": "Honored with the Academic Excellence Award for demonstrating exceptional academic and overall performance."
+      "description": "Honored with the Academic Excellence Award in 3rd Semester for demonstrating exceptional academic and overall performance."
     },
     {
       "id": "act-4",
