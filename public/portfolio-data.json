@@ -64,11 +64,11 @@
         },
         {
           "name": "Arduino IDE",
-          "level": 85
+          "level": 70
         },
         {
           "name": "VS Code",
-          "level": 65
+          "level": 85
         }
       ]
     },
@@ -163,7 +163,6 @@
       "role": "Software Team Lead",
       "period": "Sep 2025",
       "description": "Led a 5-member team to construct a real-time, low-cost solutions for waste management."
-
     }
   ]
 }
