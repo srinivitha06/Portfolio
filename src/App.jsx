@@ -54,7 +54,7 @@ function PortfolioApp() {
       {/* Modern Footer */}
       <footer className="py-12 px-6 border-t border-latte/45 bg-cream/20 text-center text-sm text-coffee-light space-y-2">
         <p className="font-serif italic font-semibold text-coffee">
-          "The best way to predict the future is to design the circuits for it."
+          "Engineering with purpose, learning without limits."
         </p>
         <p className="font-sans font-light">
           © {new Date().getFullYear()} {data.profile.name || "Siddharth Sharma"}. All rights reserved.
