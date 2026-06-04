@@ -227,7 +227,7 @@ export default function Contact({ contactData }) {
                         required
                         value={formData.name}
                         onChange={handleInputChange}
-                        placeholder="John Doe"
+                        placeholder="Visaha"
                         className="w-full px-4 py-2.5 rounded-2xl border border-coffee/15 bg-cream-light/40 focus:bg-cream-light focus:outline-none focus:ring-1 focus:ring-coffee focus:border-coffee text-sm transition-all shadow-inner text-coffee"
                       />
                     </div>
@@ -242,7 +242,7 @@ export default function Contact({ contactData }) {
                         required
                         value={formData.email}
                         onChange={handleInputChange}
-                        placeholder="john@example.com"
+                        placeholder="visaha16@example.com"
                         className="w-full px-4 py-2.5 rounded-2xl border border-coffee/15 bg-cream-light/40 focus:bg-cream-light focus:outline-none focus:ring-1 focus:ring-coffee focus:border-coffee text-sm transition-all shadow-inner text-coffee"
                       />
                     </div>
@@ -274,7 +274,7 @@ export default function Contact({ contactData }) {
                       rows={5}
                       value={formData.message}
                       onChange={handleInputChange}
-                      placeholder="Hi Siddharth, I would love to talk about..."
+                      placeholder="Hi Srinivitha, I would love to talk about..."
                       className="w-full px-4 py-3 rounded-2xl border border-coffee/15 bg-cream-light/40 focus:bg-cream-light focus:outline-none focus:ring-1 focus:ring-coffee focus:border-coffee text-sm transition-all shadow-inner resize-none text-coffee"
                     />
                   </div>

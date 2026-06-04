@@ -12,7 +12,7 @@ export default function Activities({ activitiesData }) {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-serif font-bold text-coffee text-3xl md:text-4xl mb-4">
-            Competitions & Activities
+            Achievements & Activities
           </h2>
           <div className="w-16 h-1 bg-coffee-light mx-auto rounded-full" />
         </div>
