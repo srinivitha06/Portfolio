@@ -138,24 +138,32 @@
   "activities": [
     {
       "id": "act-1",
-      "title": "Participated in Techathon 2025",
-      "role": "Team member",
-      "period": "May 2025",
-      "description": "Wildfires spread quickly and cause massive damage. This system uses AI and satellite images to detect fires early, predict how they will spread, and suggest ways to stop them using Machine Learning."
-    },
-    {
-      "id": "act-2",
-      "title": "Participated in Smart India Hackathon (Software Edition)",
-      "role": "Software Team Lead",
-      "period": "Sep 2025",
-      "description": "Led a 5-member team to construct a real-time, low-cost solutions for waste management"
-    },
-    {
-      "id": "act-3",
       "title": "Speakers Forum Coordinator",
       "role": "Class coordinator",
       "period": "2025 - Present",
       "description": "Coordinated and organized speaking competitions within the college. Announced events, encouraged students to participate actively, and helped classmates build confidence in public speaking and communication skills."
+    },
+    {
+      "id": "act-2",
+      "title": "Secured 2nd Rank in III Semester",
+      "role": "Academic Achievement",
+      "period": "2025-2026",
+      "description": "Recognized for outstanding academic performance by securing 2nd rank among students in the III semester."
+    },
+    {
+      "id": "act-3",
+      "title": "Academic Excellence Award",
+      "role": "Academic Achievement",
+      "period": "2025-2026",
+      "description": "Honored with the Academic Excellence Award for demonstrating exceptional academic and overall performance."
+    },
+    {
+      "id": "act-4",
+      "title": "Participated in Smart India Hackathon (Software Edition)",
+      "role": "Software Team Lead",
+      "period": "Sep 2025",
+      "description": "Led a 5-member team to construct a real-time, low-cost solutions for waste management."
+
     }
   ]
 }
